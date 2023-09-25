@@ -18,6 +18,7 @@ h1 {
   text-shadow: 5px 0 #232931;
 }
 p {
+  margin: 20px;
   font-size: 2rem;
   color: aquamarine;
   font-family: "Indie Flower", cursive;
