@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.place-name {
+    font-size: 6vh;
+    color: rgba(0, 0, 0, 0.85);
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 10vw;
+}
+
+.place-image {
+    display: flex;
+}
+
+.place-img {
+    height: 40vh;
+    width: 40vw;
+    display: flex;
+    margin-top: 3vh;
+    position: relative;
+    left: 10vw;
+}
+
+.place-text-background {
+    background-color: rgba(0, 42, 255, 0.699);
+    color: white;
+    position: relative;
+    width: 30vw;
+    height: 18vh;
+    top: 15vh;
+    line-height: 3vh;
+    font-size: 2.5vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.place-text {
+    top: 1vh;
+    position: relative;
+    left: 2vw;
+}
+
+.place-text-list-content {
+    box-sizing: border-box;
+}
+
+.what-to-know-heading,
+.best-time-to-visit-heading {
+    margin: 5vh 0vh 0vh 10vw;
+    color: rgba(0, 0, 0, 0.85);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.what-to-know-content,
+.best-time-to-visit-content {
+    margin: 1vh 0vh 0vh 10vw;
+    line-height: 3vh;
+    width: 80vw;
+    font-size: 2.5vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.attraction-heading {
+    margin-top: 5vh;
+    height: 5vh;
+    text-align: center;
+    font-size: 4vh;
+    font-weight: 900;
+    color: rgba(0, 0, 0, 0.85);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.attractions {
+    margin-top: 5vh;
+    height: 60vh;
+    width: 100%;
+    background-image: url("https://uttarakhandtourism.gov.in/sites/default/files/2020-06/Gangotri%20banner.jpg");
+}
+.attraction-images{
+    position: relative;
+    top: 4vh;
+    display: flex;
+    left: 13vw;
+}
+
+.attraction-image {
+    height: 50vh;
+    width: 22vw;
+    margin-left: 2vw;
+    border-radius: 100%;
+    border: .25vh solid white;
+    background-color: black;
+    box-sizing: border-box;
+}
+
+.attraction-image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+}
+
+.attraction-names {
+    height: 4vh;
+    position: relative;
+    bottom: 4.5vh;
+    display: flex;
+}
+
+.attraction-name {
+    background-color: rgba(17, 16, 16, 0.71);
+    color: white;
+    border-radius: 2vw;
+    font-size: 2.5vh;
+    font-family: cursive;
+    text-align: center;
+    position: relative;
+    font-weight: 900;
+    justify-content: center;
+}
+
+.gangotri-glacier {
+    left: 20vw;
+}
+
+.kedartal {
+    width: 12vw;
+    left: 32.25vw;
+}
+
+.gaumukh-tapovan {
+    left: 44.5vw;
+}
+
+.attraction-image:hover {
+    transform: rotateY(180deg);
+    transition-duration: .5s;
+    transition-timing-function: ease-in-out;
+    box-shadow: -.25vw .25vw .25vw black;
+}
+
+.foot {
+    margin-top: 0vh;
+}

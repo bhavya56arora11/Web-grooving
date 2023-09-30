@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 800;
+    color: white;
+}
+
+body{
+        background-image: url(shiv_background.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+        width: 100vw;
+}
+.registerbox{
+    position: absolute;
+    top: 20vh;
+    left: 20vw;
+    height: auto;
+    width: 60vw;
+    border: solid white 5px;
+    border-radius: 10px;
+    padding: 10px;
+}
+h1{
+    margin: 10px 0px;
+}
+input{
+    margin: 10px 0px;
+    background-color: none;
+    color: rgb(0, 0, 0.9);
+    border-radius: 5px;
+    outline: none;
+}
+input[type=text],input[type=email] {
+    border: solid 3px white;
+    font-size: 15px;
+    padding: 5px;
+    height: 30px;
+    color: white;
+    background: transparent;
+}
+input[type=number] {
+    outline: none;
+    background: transparent;
+    border-radius: 5px;
+    border: solid 2px white;
+    padding: 5px;
+    color: white;
+}
+select{
+    margin: 10px 0px;
+    background: transparent;
+    color: white;
+    border: solid white 2px;
+    font-size: 15px;
+    border-radius: 5px;
+    padding: 4px;
+    cursor: pointer;
+}
+
+option{
+    display: block;
+    cursor: pointer;
+    background: rgb(12, 16, 85);
+    color: white;
+    padding: 10px;
+    width: auto;
+    height: 17px;
+    outline: none;
+    font-size: 15px;
+}
+
+body{
+    text-align: center;
+}
+
+.bton{
+    background: transparent;
+    height: 4vh;
+    width: auto;
+    padding: 5px;
+    margin: 2vh 1vw;
+    border: solid white 3px;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+    transition: 200ms ease-in;
+}
+
+.bton:hover {
+    background-color: white;
+    color: black;
+}
+
+option:hover{
+    cursor: pointers;
+}

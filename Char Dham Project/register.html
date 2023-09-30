@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Here</title>
+    <link rel="stylesheet" href="register.css">
+</head>
+    <body>
+        <div class="registerbox">
+        <h1>Book Your Trip Here</h1>
+        <form action="action.php" method="post">
+                <label class="input-heads" for="fname">Enter your First Name: </label>
+                
+                <input type="text" name="fname" id="fname" required>
+                <br>
+                <label class="input-heads" for="lname">Enter your Last Name: </label>
+                
+                <input type="text" name="lname" id="lname" required>
+                <br>
+                <label for="mail-id">Enter your E-mail ID : </label>
+
+                <input type="email" name="mail" id="mail-id">
+                <br>
+                <label for="dham">Select your Dham to Visit this time: </label>
+                <select name="dham" id="dham">
+                <option value="dham">Badrinath</option>
+                <option value="dham">Kedarnath</option>
+                <option value="dham">Yamunotri</option>
+                <option value="dham">Gangotri</option>
+            </select>
+            <br>
+            <label for="number">Enter your mobile number: </label>
+            <input type="number">
+            <br>
+            <input class="bton" type="submit" value="SUBMIT">
+            <input class="bton" type="reset" value="CANCEL">
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,59 @@
+body{
+    background-color: rgb(218, 211, 211);
+}
+
+.content{
+    margin: 2vh 8vw;
+    padding: 10px;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.front-image img{
+    width: 100%;
+}
+
+.front-img{
+    margin: 2vh 22vw;
+    background-position:center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 50vh;
+    width: 50vw;
+}
+
+.writeup{
+    display: inline-block;
+    background-color: #07376a;
+    position: absolute;
+    left: 55vw;
+    top: 112vh;
+    color:ivory;
+    font-size: large;
+    filter: opacity(85%);
+}
+.writeup ul{
+    list-style:none;
+}
+.reach{
+    margin: 5vh 10vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.travel{
+    font-size: 2.7vh;
+    min-height: 50vh;
+    width: 19.25vw;
+    word-wrap: normal;
+    background-color: beige;
+    box-shadow: 10px 5px;
+ }
+ .travel img{
+    width: 100%;
+ }
+.travel p,b{
+    margin: 1vh;
+    padding: 1vh;
+}

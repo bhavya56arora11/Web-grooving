@@ -1,0 +1,22 @@
+.foot{
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: white;
+    background-color: rgb(95, 90, 90);
+}
+
+.foot h2 , h4 , ul{
+    margin: 10px;
+}
+
+.foot h4{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.foot ul li{
+    margin: 5px;
+    padding: 5px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}

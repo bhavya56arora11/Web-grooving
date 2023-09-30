@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#header {
+    background-color: #07376a;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+body{
+    background-color: rgb(218, 211, 211);
+}
+
+.navigation-bar {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.nav-el {
+    text-align: center;
+    align-self: center;
+    color: whitesmoke;
+    font-weight: bold;
+    margin-left: 30px;
+    text-decoration: none;
+}
+
+.navigation-bar img {
+    height: 10vh;
+}
+
+.slidecard {
+    width: 100%;
+    overflow: hidden;
+}
+
+.slides {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    transition: 2s;
+}
+
+.images {
+    transition: 2s;
+    width: 100vw;
+}
+
+.images img {
+    width: 100vw;
+}
+
+.slider-btn {
+    margin: auto;
+    text-align: center;
+}
+
+.slider-btn input {
+    margin: 10px;
+    appearance: none;
+    background-color: white;
+    filter: opacity(90%);
+    height: 25px;
+    width: 25px;
+    border: 2px solid black;
+    border-radius: 50%;
+    position: relative;
+    bottom: 50px;
+}
+
+.slider-btn input:hover {
+    cursor: pointer;
+}
+
+.slider-btn input:checked {
+    background-color: #07376a;
+    filter: opacity(90%);
+}
+
+.about {
+    margin: 10px 20px;
+    text-align: center;
+}
+
+.about h1 {
+    color: #212529;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.about p {
+    font-size: large;
+    margin: 10px 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.register-btn {
+    margin: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    height: auto;
+    width: auto;
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+    border: 3px solid #007bff;
+    border-radius: 4px;
+    padding: 10px;
+    cursor: pointer;
+    transition-duration: 200ms;
+}
+.register-btn:hover {
+    background-color: white;
+}
+.register-link{
+    text-decoration: none;
+    color: white;
+}
+.register-btn:hover .register-link{
+    color: #007bff;
+}
+.cards {
+    margin: 20px 80px;
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.places {
+    height: 35vh;
+    width: 20vw;
+    margin: 10px;
+    border-radius: 8px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    overflow: hidden;
+    filter: brightness(70%);
+    transition: 0.5s 0s ease-out;
+}
+
+#p1 {
+    background-image: url("Banner_badrinath_for_cards.jpeg");
+}
+
+#p2 {
+    background-image: url("Banner_Kedarnath_for_cards.jpeg");
+}
+
+#p3 {
+    background-image: url("Banner_Yamunotri_for_cards.jpeg");
+}
+
+#p4 {
+    background-image: url("Banner_Gangotri_for_cards.jpeg");
+}
+
+.places p {
+    color: rgb(255, 255, 255);
+    font-weight:900;
+    text-align: center;
+    font-size: x-large;
+}
+
+.places:hover{
+    filter: brightness(100%);
+    transform: scale(1.1);
+    box-shadow: 5px 5px 2px black;
+}
+
+.support {
+    margin: 10px 10px 0px 10px;
+    display: block;
+    float: right;
+    position: sticky;
+    top: 620px;
+}
+
+.foot {
+    background-color: #212529;
+    color: aliceblue;
+}

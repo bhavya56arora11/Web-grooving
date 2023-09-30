@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+.top-image{
+    width: 100%;
+}
+
+.AdventureQuestions{
+    margin: 3vh;
+   position: relative;
+   left:10%;
+   right:10%;
+}
+.question{
+    font-size: 3vh;
+    margin-right:15%;
+}
+.answer{
+    font-size: 3vh;
+    margin-right: 15%;
+}
+li,.copyright{
+    font-size: 3vh;
+}
