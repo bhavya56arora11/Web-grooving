@@ -2,6 +2,7 @@ import React from "react";
 import "./skills.css";
 import Frontend from "./Frontend";
 import Backend from "./Backend";
+import '../App.css';
 
 export default function Skill() {
   return (

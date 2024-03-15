@@ -18,12 +18,14 @@
 }
 
 .about-box{
-  background-color: var(--container-color);
+  background-color:beige;
   border: 1px solid rgba(0,0,0,0.1);
   border-radius: 0.75rem;
   text-align: center;
   padding: 1rem 1.25rem;
   margin-bottom: var(--mb-2-5);
+  color: black;
+  box-shadow: 2px 2px 1px 1px ;
 }
 
 .about-icon{

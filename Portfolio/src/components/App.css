@@ -9,6 +9,9 @@
     --normal-font-size: 0.938rem;
     --small-font-size: 0.813rem;
     --smaller-font-size: 0.75rem;
+    --body-color: #333;
+    --text-color: #fff;
+    --title-color: #555;
   }
 }
 
@@ -31,15 +34,8 @@ textarea {
 }
 
 body {
-  background-color: var(--body-color);
-  color: var(--text-color);
-}
-
-h1,
-h2,
-h3 {
-  color: var(--title-color);
-  font-weight: var(--font-semi-bold);
+  background-color: #000;
+  color: white;
 }
 
 ul {
@@ -54,6 +50,7 @@ button {
   cursor: pointer;
   border: none;
   outline: none;
+  background-color: #fff;
 }
 
 img {
@@ -64,14 +61,8 @@ img {
   padding: 6rem 0 2rem;
 }
 
-.section-title {
-  font-size: var(--h1-font-size);
-  color: var(--title-color);
-}
-
 .section-subtitle {
   display: block;
-  font-size: var(--small-font-size);
   margin-bottom: 4rem;
 }
 
@@ -91,19 +82,10 @@ img {
 }
 .button {
   display: inline-block;
-  background-color: var(--title-color);
   color: var(--container-color);
   padding: 1.25rem 2rem;
   border-radius: 1rem;
   font-weight: var(--font-medium);
-}
-
-.button:hover {
-  background-color: var(--title-color-dark);
-}
-
-.button-icon {
-  margin-left: var(--mb-0-5);
 }
 
 .button--flex {

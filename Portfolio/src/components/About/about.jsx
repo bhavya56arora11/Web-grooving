@@ -3,6 +3,7 @@ import Info from "./info";
 import "./about.css";
 import { NavLink } from "react-router-dom";
 import cv from "./atom.png";
+import '../App.css';
 
 function About() {
   return (

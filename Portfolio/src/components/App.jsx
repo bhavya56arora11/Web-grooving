@@ -2,7 +2,8 @@ import React from "react";
 import Header from "./Header/header";
 import Intro from "./Intro/intro";
 import About from "./About/about";
-import Skill from "./Skills/skills";
+import Skills from "./Skills/skills";
+import Qualifications from "./Qualifications/qualifications";
 import "./App.css";
 
 function App() {
@@ -11,7 +12,8 @@ function App() {
       <Header />
       <Intro />
       <About />
-      <Skill />
+      <Skills />
+      <Qualifications />
     </>
   );
 }
