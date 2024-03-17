@@ -17,7 +17,9 @@ function About() {
           <Info />
 
           <NavLink download="" href={cv} className="button button--flex">
-            Download CV
+          <button class="ui-btn">
+            <span>Download CV</span>
+          </button>
           </NavLink>
         </div>
       </div>

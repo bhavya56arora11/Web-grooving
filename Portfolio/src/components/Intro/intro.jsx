@@ -5,28 +5,11 @@ import { Link } from "react-scroll";
 function intro() {
   return (
     <section id="intro">
-    {/* <nav className="nav-container">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/1/18/Batman_logo.jpg" alt="" className='nav-logo'/>
-        <ul className='nav-list'>
-        <Link className="nav-link">Home</Link>
-        <Link className="nav-link">About</Link>
-        <Link className="nav-link">Projects</Link>
-        </ul>
-        <button className='nav-button'>
-            <img src="https://i.pinimg.com/736x/fc/27/fb/fc27fb81e77cc56ba4ed981d7801ceb9.jpg" alt="" className="nav-button-img" />Contact Me
-        </button>
-    </nav> */}
       <div className="introcontent">
         <span className="Hi">Hi</span>
         <span className="introText">
           I am<span className="introName"> Bhavya Arora</span>
-          <br></br>A Web Developer
         </span>
-        <Link>
-          <button class="ui-btn">
-            <span>My Resume</span>
-          </button>
-        </Link>
       </div>
       <video autoPlay muted loop className="introVid">
         <source
