@@ -16,9 +16,11 @@ body.no-scroll {
 }
 
 .nav-logo {
-  color: blueviolet;
+  color: rgb(100, 21, 173);
   font-size: 30px;
   font-weight: 700;
+  font-family: "Tourney", sans-serif;
+  font-optical-sizing: auto;
 }
 
 .nav-menu {
@@ -52,13 +54,14 @@ body.no-scroll {
 
 .nav-link {
   color: white;
-  font-size: 20px;
+  font-family: "Madimi One", sans-serif;
+  font-size: 38px;
   font-weight: 700;
   transition: all 0.3s ease-in;
 }
 
 .nav-link:hover {
-  color: blueviolet;
+  color: rgb(100, 21, 173);
 }
 
 .nav-btns {
@@ -80,7 +83,7 @@ body.no-scroll {
   left: 0;
   width: 100%;
   height: 2px;
-  background-color: blueviolet;
+  background-color: rgb(100, 21, 173);
   transition: all 0.3s ease-in-out;
 }
 

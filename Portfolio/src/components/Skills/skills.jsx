@@ -1,7 +1,6 @@
 import React from "react";
 import "./skills.css";
-import Frontend from "./Frontend";
-import Backend from "./Backend";
+import List from "./list";
 import '../App.css';
 
 export default function Skill() {
@@ -10,9 +9,8 @@ export default function Skill() {
       <h2 className="section-title">Skills</h2>
       <span className="section-subtitle">My technical level</span>
 
-      <div className="skills-container container grid">
-<Frontend />
-<Backend />
+      <div>
+<List />
       </div>
     </section>
   );

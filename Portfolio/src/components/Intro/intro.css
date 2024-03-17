@@ -29,7 +29,6 @@
   z-index: 2;
   height: 100%;
   object-fit: cover;
-  width: 40vw;
   padding: 5rem;
   font-size: 4rem;
   font-weight: 700;
@@ -44,10 +43,41 @@
 }
 
 .introName {
-  color: blueviolet;
+  color: rgb(100, 21, 173);
 }
 
 .introPara {
   font-size: medium;
   font-weight: 100;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 1200px) {
+  .introcontent {
+    width: 60vw;
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .introcontent {
+    width: 70vw;
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .introcontent {
+    width: 80vw;
+    font-size: 2rem;
+    padding: 3rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .introcontent {
+    width: 90vw;
+    font-size: 1.5rem;
+    padding: 2rem;
+  }
 }

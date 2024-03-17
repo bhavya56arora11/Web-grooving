@@ -8,7 +8,7 @@ function intro() {
       <div className="introcontent">
         <span className="Hi">Hi</span>
         <span className="introText">
-          I am<span className="introName"> Bhavya Arora</span>
+          I am<span className="introName"> Bhavya Arora</span><br></br>A Web Developer
         </span>
       </div>
       <video autoPlay muted loop className="introVid">

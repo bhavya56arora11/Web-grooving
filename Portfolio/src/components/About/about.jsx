@@ -1,9 +1,9 @@
 import React from "react";
 import Info from "./info";
 import "./about.css";
-import { NavLink } from "react-router-dom";
-import cv from "./atom.png";
-import '../App.css';
+import image from "./image.png";
+import cv from "./ATS Resume.pdf"
+import "../App.css";
 
 function About() {
   return (
@@ -12,15 +12,15 @@ function About() {
       <span className="section-subtitle">My introduction</span>
 
       <div className="about-container container grid">
-        <img className="about-img" src={cv}></img>
+        <img className="about-img" src={image}></img>
         <div className="about-data">
           <Info />
 
-          <NavLink download="" href={cv} className="button button--flex">
-          <button class="ui-btn">
-            <span>Download CV</span>
-          </button>
-          </NavLink>
+          <a href={cv} download="ATS_Resume.pdf">
+            <div class="button">
+              Download CV<span class="button-border"></span>
+            </div>
+          </a>
         </div>
       </div>
     </section>
