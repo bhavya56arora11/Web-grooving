@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Web-grooving/static/css/main.141dfa62.css",
+    "main.js": "/Web-grooving/static/js/main.97744475.js",
+    "static/media/image.png": "/Web-grooving/static/media/image.6f787cec734a774122f1.png",
+    "static/media/Portfolio.png": "/Web-grooving/static/media/Portfolio.f2cacb6034532fbbe621.png",
+    "static/media/Virtual World.png": "/Web-grooving/static/media/Virtual World.37d2229e556893bb2ff8.png",
+    "static/media/ATS Resume.pdf": "/Web-grooving/static/media/ATS Resume.4c7db7167ae20aa4d079.pdf",
+    "static/media/atom.png": "/Web-grooving/static/media/atom.17e5cb984343d1346ebd.png",
+    "static/media/sql-server.png": "/Web-grooving/static/media/sql-server.64b3eb63f995c0da35b3.png",
+    "static/media/node-js.png": "/Web-grooving/static/media/node-js.e328955d6bbbf3ebc72b.png",
+    "static/media/c++.png": "/Web-grooving/static/media/c++.24a8f93854ab092f17a7.png",
+    "static/media/mongodb.png": "/Web-grooving/static/media/mongodb.7a16fc61d457c9e340e2.png",
+    "static/media/java.png": "/Web-grooving/static/media/java.f5dd86c3ef6ef3f85acf.png",
+    "static/media/css-3.png": "/Web-grooving/static/media/css-3.463e319bad8e0edf1ef7.png",
+    "static/media/js.png": "/Web-grooving/static/media/js.3dfb665e058d08c99f28.png",
+    "index.html": "/Web-grooving/index.html",
+    "main.141dfa62.css.map": "/Web-grooving/static/css/main.141dfa62.css.map",
+    "main.97744475.js.map": "/Web-grooving/static/js/main.97744475.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.141dfa62.css",
+    "static/js/main.97744475.js"
+  ]
+}
